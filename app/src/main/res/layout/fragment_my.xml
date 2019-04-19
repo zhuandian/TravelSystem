@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f0ee"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_user_info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="#fff"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="个人信息" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#999999" />
+
+    <TextView
+        android:id="@+id/tv_my_order"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="我的订单" />
+
+
+    <TextView
+        android:id="@+id/tv_help"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="#fff"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="查看帮助" />
+</LinearLayout>

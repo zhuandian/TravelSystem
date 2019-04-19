@@ -68,6 +68,6 @@ public class HotelAdapter extends BaseAdapter<HotelEntity, BaseViewHolder> {
     }
 
     public interface OnItemClickListener {
-        void onClick(HotelEntity sceneryEntity);
+        void onClick(HotelEntity hotelEntity);
     }
 }

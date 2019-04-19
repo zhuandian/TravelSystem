@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".business.HelpActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="移动旅游景区信息服务系统"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="APP端设计中要完成的基本功能：进入APP后先进行用户登陆，如不登陆也能浏览信息但是无法进行景区的订票和预约，主菜单罗列各地不同的景点，每个景区下附带旅游见闻和游玩攻略，如需要订票和预约酒店，只要在用户登陆后即可进行操作。"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

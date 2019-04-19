@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab_home"
+        android:title="首页"
+        android:icon="@drawable/ic_home"
+         />
+    <item
+        android:id="@+id/tab_scenery"
+        android:title="景点"
+        android:icon="@drawable/ic_view"
+        />
+    <item
+        android:id="@+id/tab_hotel"
+        android:title="住宿"
+        android:icon="@drawable/ic_hotel"
+        />
+    <item
+        android:id="@+id/tab_my"
+        android:enabled="true"
+        android:icon="@drawable/ic_my"
+        android:title="我的"
+         />
+
+</menu>
